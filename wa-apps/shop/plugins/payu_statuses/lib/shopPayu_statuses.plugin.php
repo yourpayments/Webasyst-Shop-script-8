@@ -1,7 +1,7 @@
 <?php
 
 
-	class shopPayuPlugin extends waPlugin
+	class shopPayu_statusesPlugin extends waPlugin
 	{
 
 		const PLUGIN_NAME = 'payu';
@@ -72,11 +72,11 @@
 				&& \mb_strlen($params['merchant']['merchant']) > 0
 				&& isset($params['merchant']['secretkey'])
 				&& \mb_strlen($params['merchant']['secretkey']) > 0
-				&& \file_exists(__DIR__ . '/../../../../../wa-plugins/payment/payu/lib/payuSystem.php')
+				&& \file_exists(__DIR__ . '/../../../../../wa-plugins/payment/payu_payments/lib/payuSystem.php')
 			)
 			{
 
-				require_once (__DIR__ . '/../../../../../wa-plugins/payment/payu/lib/payuSystem.php');
+				require_once (__DIR__ . '/../../../../../wa-plugins/payment/payu_payments/lib/payuSystem.php');
 
 				\PayuSystem::getInstance()->setOptions(
 					[

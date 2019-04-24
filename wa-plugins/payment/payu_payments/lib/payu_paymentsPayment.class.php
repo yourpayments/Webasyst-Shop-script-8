@@ -15,7 +15,7 @@
 	 * @property string back_ref
 	 * @property string auto_mode
 	 */
-	class payuPayment extends \waPayment implements \waIPayment, \waIPaymentCancel, \waIPaymentRefund, \waIPaymentRecurrent
+	class payu_paymentsPayment extends \waPayment implements \waIPayment, \waIPaymentCancel, \waIPaymentRefund, \waIPaymentRecurrent
 	{
 
 		/** Размелитель запроса */
