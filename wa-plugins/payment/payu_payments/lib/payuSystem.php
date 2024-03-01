@@ -4,7 +4,7 @@
 	{
 
 		/** @var string  */
-		private $luUrl = 'https://secure.payu.ru/order/lu.php';
+		private $luUrl = 'https://secure.ypmn.ru/order/lu.php';
 		/** @var string  */
 		private $button = '<input value="Оплатить заказ на сайте «PayU»" type="submit">';
 		/** @var bool  */
@@ -49,7 +49,7 @@
 		/** Максимальная длинна заголовка товара */
 		const MAX_ITEM_NAME_LEN = 155;
 		/** URL для IRN Звпроса */
-		const IRN_PAY_URL = 'https://secure.payu.ru/order/irn.php';
+		const IRN_PAY_URL = 'https://secure.ypmn.ru/order/irn.php';
 
 		/**
 		 * @ignore

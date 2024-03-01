@@ -2,7 +2,7 @@
 
 	return array (
 		'name' => 'PayU',
-		'description' => 'Платежная система <a href="http://www.payu.ru">PayU</a>',
+		'description' => 'Платежная система <a href="http://www.ypmn.ru">PayU</a>',
 		'icon' => 'img/payu16.png',
 		'logo' => 'img/payu.png',
 		'img' => 'img/payu-logo-webasyst.png',
